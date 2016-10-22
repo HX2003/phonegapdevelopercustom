@@ -56,7 +56,7 @@ $(document).on('deviceready', function() {
     // Avoids flicker on slower devices.
     setTimeout(function() {
         // allow the screen to dim when returning from the served app
-        window.plugins.insomnia.allowSleepAgain();
+       
 
         navigator.splashscreen.hide();
         $('.footer').removeClass('faded');
